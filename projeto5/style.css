@@ -1,0 +1,160 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+:root{
+    --cor0: #d3ff907e;
+    --cor1: #5EF79B;
+    --cor2: #60E06F;
+    --cor3: #7DF75E;
+    --cor4: #ACED5A;
+    --cor5: #1c4421;
+    --cor6: #356d3ca1;
+    --cor7: #44BD4E;
+}
+
+.bugdroid{
+    width: 50%;
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+.titulo-principal{
+    color: var(--cor5);
+}
+
+body{
+    margin: 0px;
+    flex-direction: column;
+    font-family: sans-serif;
+    background: var(--cor0);
+}
+
+header > h1{
+    text-align: center;
+    margin-top: 5px;
+}
+
+header > p{
+    text-align: center;
+}
+
+header{
+    min-width: 300px;
+    margin: auto;
+    background-image: linear-gradient(95deg,#4bbd5a, #3c7745);
+    padding-top: 20px;
+    color: white;
+}
+
+nav{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    background-image: linear-gradient(-95deg, #3c7745, #4bbd5a);
+}
+
+nav > a{
+    color: white;
+    padding: 8px 15px;
+    text-decoration: none;
+    font-weight: 600;
+    transition-duration: .5s;
+    border-radius: 5px;
+}
+
+a:hover{
+    color: #1c4421;
+    background-color: white;
+}
+
+main{
+    border-radius: 0px 0px 20px 20px;
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    background: white;;
+}
+
+main img {
+    width: 100%;
+}
+
+main h1, h2{
+    margin: 10px 0px;
+}
+
+main h2{
+    color: #274d36;
+    background-image: linear-gradient(to right, var(--cor4), var(--cor1));
+    border-radius: 7px;
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.295);
+}
+
+main p{
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    font-size: 1em;
+    line-height: 2em;
+}
+
+article{
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.288);
+    padding: 10px;
+    border-radius: 0px 0px 20px 20px;
+}
+
+article h1{
+    margin-top: 0px;
+}
+
+div.video{
+    background-color: #1c4421;
+    margin: 0px -10px 20px -10px;
+    padding: 20px;
+    padding-bottom: 55.4% ;
+    position: relative;
+}
+
+div.video > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+abbr{
+    text-decoration: none;
+}
+
+aside{
+    background-color: var(--cor1);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.281);
+}
+
+aside > h3{
+    background-color: #1c4421;
+    color: white;
+    margin: -10px -10px 0px -10px;
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+aside > ul{
+    list-style-position: inside;
+    columns: 2;
+}
+
+footer{
+    text-align: center;
+    padding: 3px;
+    background-color: #1c4421;
+    color: white;
+    margin-top: 10px;
+}
